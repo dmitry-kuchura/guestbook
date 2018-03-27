@@ -1,21 +1,12 @@
+import vuejs_paginate from "vuejs-paginate";
+import Vue from "vue";
+import axios from "axios";
 
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
+window.axios = axios;
 
-require('./bootstrap');
-
-window.Vue = require('vue');
-
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('signatures', require('../components/Signatures.vue'));
+Vue.component('signature-form', require('../components/SignatureForm.vue'));
+Vue.component('paginate', vuejs_paginate);
 
 const app = new Vue({
     el: '#app'
