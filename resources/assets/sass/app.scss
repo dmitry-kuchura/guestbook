@@ -1,3 +1,10 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// Variables
+@import "variables";
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
 $color_1: #f14444;
 $color_2: #444;
 $color_3: #fff;
@@ -34,8 +41,8 @@ nav.navbar-findcond {
     }
   }
   ul.dropdown-menu {
-    > li {
-      > a {
+    >li {
+      >a {
         color: $color_2;
         &:hover {
           background: #f14444;
@@ -45,7 +52,6 @@ nav.navbar-findcond {
     }
   }
 }
-
 button[type="submit"] {
   border-radius: 2px;
   color: $color_3;

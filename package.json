@@ -17,6 +17,8 @@
         "lodash": "^4.17.4"
     },
     "dependencies": {
+        "bootstrap": "^4.0.0",
+        "bootstrap-sass": "^3.3.7",
         "vue": "^2.5.16",
         "vuejs-paginate": "^1.8.0"
     }
