@@ -12,7 +12,7 @@ class Signature extends Model
      * @var array
      */
     protected $fillable = ['name', 'email', 'body', 'flagged_at'];
-    
+
     /**
      * Ignore flagged signatures.
      *
